@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <main className="flex flex-col">
         <HeroSection />
-        <div className="flex flex-col items-center 2xl-2:mt-[100vh] 2xl:mt-[20vh] xl:mt-[20vh] lg:mt-[15vh] sm:mt-[17vh] mt-[10vh] 2xl-2:z-40 relative">
+        <div className="flex flex-col items-center 2xl-2:mt-[100vh] 2xl:mt-[20vh] xl:mt-[10vh] lg:mt-[10vh] sm:mt-[10vh] mt-[30px] 2xl-2:z-40 relative">
           <AppPreview />
           <FeatureSection />
         </div>

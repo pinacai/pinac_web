@@ -32,6 +32,9 @@ const HeroSection = () => {
           className="h-auto w-1/2 object-cover absolute bottom-4 right-0"
         />
       </div>
+      <button className="bg-primary/60 backdrop-blur-sm text-sm lg:text-base text-white font-Catamaran tracking-wider rounded-full py-2 lg:py-2.5 px-6 lg:px-12 mt-6 lg:mt-8 hover:bg-gray-800/70 focus:outline-none z-40">
+        Get Started
+      </button>
       <div className="absolute 2xl-2:top-[150px] 2xl:top-[235px] xl:top-[198px] lg:top-[193px] sm:top-[100px] top-[125px]">
         <Image
           src={planet}
