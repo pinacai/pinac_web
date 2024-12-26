@@ -1,6 +1,4 @@
-"use client";
 import { useEffect } from "react";
-import styles from "./Notification.module.css";
 
 interface NotificationProps {
   message: string;
@@ -18,7 +16,18 @@ const Notification = ({ message, type, onClose }: NotificationProps) => {
   }, [onClose]);
 
   return (
-    <div className={`${styles.notification} ${styles[`notification_${type}`]}`}>
+    <div
+      className={`
+        fixed top-5 right-5 
+        py-4 px-6 
+        rounded-lg 
+        font-Poppins text-sm
+        z-50
+        animate-slideIn
+        ${type === "success" ? "bg-emerald-500" : "bg-rose-600"}
+        text-white
+      `}
+    >
       {message}
     </div>
   );

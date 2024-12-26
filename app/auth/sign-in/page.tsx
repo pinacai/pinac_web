@@ -3,7 +3,7 @@ import { useState, useContext } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { UserCredential } from "@firebase/auth";
 import { FirebaseContext } from "@/firebase/firebaseContext";
-import Notification from "@/components/Notification";
+import Notification from "@/components/common/Notification";
 import Link from "next/link";
 
 // icons

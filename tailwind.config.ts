@@ -53,6 +53,32 @@ export default {
         darkCloudSmall: "0 0 50px 50px #090c13",
         bgGlow: "0 0 80px rgba(255, 255, 255, 0.3)",
       },
+      keyframes: {
+        slideIn: {
+          from: {
+            transform: "translateX(100%)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateX(0)",
+            opacity: "1",
+          },
+        },
+        slideOut: {
+          from: {
+            transform: "translateX(0)",
+            opacity: "1",
+          },
+          to: {
+            transform: "translateX(100%)",
+            opacity: "0",
+          },
+        },
+      },
+      animation: {
+        slideIn: "slideIn 0.3s ease-out",
+        slideOut: "slideOut 0.3s ease-out",
+      },
     },
   },
   plugins: [],
