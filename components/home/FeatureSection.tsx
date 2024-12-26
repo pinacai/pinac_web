@@ -1,10 +1,10 @@
 const FeatureSection = () => {
   return (
-    <section className="w-full pt-[102px] flex flex-col items-center bg-primary shadow-darkCloud">
+    <section className="w-full py-16 pb-20 flex flex-col items-center bg-primary shadow-darkCloud">
       {/*       Heading         */}
       {/* ===================== */}
       <span
-        className="xl:text-5xl xl:leading-[70px] lg:text-4xl lg:leading-[60px] md:text-3xl md:leading-[45px] text-3xl
+        className="space-x-3 pb-8 xl:text-5xl xl:leading-[70px] lg:text-4xl lg:leading-[60px] md:text-3xl md:leading-[45px] text-3xl
                 text-center font-bold  tracking-wide  font-Catamaran text-light left-[1%]"
       >
         Next-Gen features that <br /> makes it Worth It
@@ -12,7 +12,7 @@ const FeatureSection = () => {
 
       {/*      Features Grid      */}
       {/* ======================= */}
-      <div className="max-w-[90%] mt-[70px] mb-16">
+      <div className="max-w-[90%]">
         <div
           className="grid h-auto 2xl:grid-cols-3 lg:grid-cols-2
                       2xl-3:gap-7 2xl:gap-5 xl:gap-5 gap-4"

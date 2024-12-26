@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section className="2xl-2:h-screen w-full flex flex-col items-center 2xl-2:fixed">
       <div
-        className="3xl:mt-[128px] flex flex-col justify-center relative z-50
+        className="3xl:mt-[128px] flex flex-col justify-center relative z-40
                   2xl:mt-[118px] xl:mt-[95px] lg:mt-[90px] md:mt-[80px] mt-[60px]"
       >
         <span

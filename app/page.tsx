@@ -1,7 +1,7 @@
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/sections/home/HeroSection";
-import AppPreview from "@/sections/home/AppPreview";
-import FeatureSection from "@/sections/home/FeatureSection";
+import Navbar from "@/components/common/Navbar";
+import HeroSection from "@/components/home/HeroSection";
+import AppPreview from "@/components/home/AppPreview";
+import FeatureSection from "@/components/home/FeatureSection";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <main className="flex flex-col">
         <HeroSection />
-        <div className="flex flex-col items-center 2xl-2:mt-[100vh] 2xl:mt-[20vh] xl:mt-[20vh] lg:mt-[15vh] sm:mt-[17vh] mt-[10vh] 2xl-2:z-50 relative">
+        <div className="flex flex-col items-center 2xl-2:mt-[100vh] 2xl:mt-[20vh] xl:mt-[20vh] lg:mt-[15vh] sm:mt-[17vh] mt-[10vh] 2xl-2:z-40 relative">
           <AppPreview />
           <FeatureSection />
         </div>

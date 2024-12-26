@@ -43,7 +43,7 @@ const AppPreview = () => {
 
   return (
     <div
-      className="w-full flex justify-center items-center z-50"
+      className="w-full flex justify-center items-center z-40"
       ref={imageRef}
     >
       <Image
@@ -51,7 +51,7 @@ const AppPreview = () => {
         src={appImage}
         className={`${
           bgGlow ? "2xl-2:shadow-bgGlow" : ""
-        } h-full max-w-[90%] 2xl:rounded-3xl md:rounded-2xl rounded-lg`}
+        } h-full max-w-[80%] 2xl:rounded-3xl md:rounded-2xl rounded-lg`}
       />
     </div>
   );
