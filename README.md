@@ -17,10 +17,6 @@ Building the Website Page for PINAC Workspace
 
 _We are seeking collaboration to design the website on Figma._
 
-## ✍ Figma Design
-
-https://www.figma.com/design/jRPYU80RWHxfvz6cpYbsMI/PINAC-Web?node-id=0-1&t=yq0Lu7CfoWjVN7ge-1
-
 ## 📂 File Structure
 
       .
